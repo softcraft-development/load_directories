@@ -1,6 +1,7 @@
 require 'set'
 
 module LoadDirectories
+  VERSION = "1.0.0"
   def self.load( root )
     subdirectories = Set.new([File.expand_path(root)])
     Dir[root + "/**/**"].each do |f|
