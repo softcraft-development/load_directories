@@ -1,11 +1,13 @@
 History.txt
 Manifest.txt
-PostInstall.txt
 README.rdoc
 Rakefile
 lib/load_directories.rb
 script/console
 script/destroy
 script/generate
+test/test_directory_root/one/one.rb
+test/test_directory_root/one/one_one/one_one.rb
+test/test_directory_root/two/two.rb
 test/test_helper.rb
 test/test_load_directories.rb
