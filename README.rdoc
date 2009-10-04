@@ -20,7 +20,7 @@ Ruby 1.8.6 or greater
 
 == INSTALL:
 
-  sudo gem install load_directories
+  sudo gem install softcraft-development-load_directories
 
 == LICENSE:
 

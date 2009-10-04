@@ -1,7 +1,7 @@
 require 'set'
 
 module LoadDirectories
-  VERSION = "1.0.0"
+  VERSION = "1.0.1"
   def self.load( root )
     root = root.to_s
     subdirectories = Set.new([File.expand_path(root)])
